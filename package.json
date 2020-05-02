@@ -1,17 +1,24 @@
 {
-    "name": "exercise-tracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
-    },
-    "author": "Tyler Pho",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^5.9.5",
-      "morgan": "^1.10.0"
-    }
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerphopho/home-workout-tracker.git"
+  },
+  "author": "Tyler Pho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
   }
+}
